@@ -4,6 +4,7 @@
 
 setfont ter-c28b
 
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
