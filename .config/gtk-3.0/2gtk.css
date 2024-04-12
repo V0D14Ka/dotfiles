@@ -1,0 +1,24 @@
+* sidebar */
+
+.thunar .sidebar .view {
+	background-color: #001652;
+	# color: white;
+}
+
+/* main view */
+.thunar .standard-view .view {
+	background-color: #4163bf;
+	color: white;
+}
+
+/* status bar */
+.thunar grid paned grid  {
+	background-color: #4163bf;
+	color: white;
+}
+
+/* toolbar */
+.thunar toolbar, .thunar toolbar entry  {
+	background-color: #001652;
+	color: white;
+}
