@@ -10,3 +10,6 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias lvim='sh ~/.local/bin/lvim'
+eval "$(starship init bash)"
+
+neofetch --source ~/.config/neofetch/endeavouros_small
