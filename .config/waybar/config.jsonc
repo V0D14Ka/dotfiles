@@ -7,6 +7,7 @@
 
     // Modules Left
     "modules-left": [
+        "idle_inhibitor",
         "hyprland/workspaces"
     ],
 
@@ -175,6 +176,16 @@
     "hyprland/language": {
         "format": "/ K {short}"
     },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "tooltip": true,
+        "format-icons":{
+            "activated": "",
+            "deactivated": ""
+        },
+        "on-click-right": "hyprlock"        
+    }
 
 
 

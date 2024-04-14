@@ -7,6 +7,7 @@
 @define-color textcolor2 #000000;
 @define-color textcolor3 #FFFFFF;
 @define-color iconcolor #FFFFFF;
+
 /* -----------------------------------------------------
  * General 
  * ----------------------------------------------------- */
@@ -176,6 +177,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
  #idle_inhibitor {
     margin-right: 15px;
+    margin-left: 15px;
     font-size: 22px;
     font-weight: bold;
     opacity: 0.8;
@@ -184,6 +186,7 @@ window#waybar.empty #window {
 
 #idle_inhibitor.activated {
     margin-right: 15px;
+    margin-left: 15px;
     font-size: 20px;
     font-weight: bold;
     opacity: 0.8;
