@@ -14,5 +14,9 @@ if [ -z "$XDG_RUNTIME_DIR" ]; then
 fi
 
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+	export XDG_CURRENT_DESKTOP=Hyprland
+	export QT_QPA_PLATFORM=wayland
+	export XDG_SESSION_TYPE=wayland
+	export XDG_SESSION_DESKTOP=Hyprland
 	exec Hyprland
 fi
