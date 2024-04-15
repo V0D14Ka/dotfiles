@@ -1,5 +1,5 @@
 [character]
-success_symbol = "[>](bold green)"
+success_symbol = "[>](bold blue)"
 error_symbol = "[x](bold red)"
 vimcmd_symbol = "[<](bold green)"
 
@@ -12,6 +12,24 @@ behind = "<"
 diverged = "<>"
 renamed = "r"
 deleted = "x"
+up_to_date = '✓'
 
 [python]
 disabled = true
+
+[battery]
+format = '[$percentage]($style)'
+
+[[battery.display]]
+threshold = 10
+style = 'bold red'
+
+[[battery.display]]
+threshold = 30
+style = 'bold yellow'
+
+[container]
+format = '[$symbol \[$name\]]($style) '
+
+[docker_context]
+format = 'via [🐋 $context](blue bold)'
