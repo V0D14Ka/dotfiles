@@ -11,6 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 alias lvim='sh ~/.local/bin/lvim'
 alias code='sh code  --ozone-platform=wayland '
+alias obsidian='sh obsidian --ozone-platform-hint=wayland'
 eval "$(starship init bash)"
 
 neofetch --source ~/.config/neofetch/endeavouros_small
